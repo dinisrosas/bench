@@ -1,9 +1,70 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+
+			gtag('consent', 'default', {
+				ad_storage: 'granted',
+				analytics_storage: 'granted',
+				functionality_storage: 'granted',
+				personalization_storage: 'granted',
+				security_storage: 'granted',
+				ad_personalization: 'granted',
+				ad_user_data: 'granted'
+			});
+		</script>
+
+		<!-- Google tag (gtag.js) #1 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-752609841"></script>
+
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'AW-752609841', { allow_enhanced_conversions: true });
+			gtag('set', 'url_passthrough', true);
+			gtag('config', 'G-NWEH3QFE8S');
+		</script>
+
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script
+			async
+			id="cookieyes"
+			type="text/javascript"
+			src="https://cdn-cookieyes.com/client_data/89788a90ed31930a13db7a3c/script.js"
+		></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script async>
+			(function (d, w, c) {
+				w.BrevoConversationsID = '67e5cf8e7c6e9566f6006d9b';
+				w[c] =
+					w[c] ||
+					function () {
+						(w[c].q = w[c].q || []).push(arguments);
+					};
+				var s = d.createElement('script');
+				s.async = true;
+				s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+				if (d.head) d.head.appendChild(s);
+			})(document, window, 'BrevoConversations');
+		</script>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
